@@ -1,0 +1,11 @@
+body {
+    border: solid black 1px;
+    box-shadow: 5px 5px rgb(17, 17, 17);
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.employer {
+    font-weight: 1000;
+}
