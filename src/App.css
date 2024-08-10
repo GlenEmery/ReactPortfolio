@@ -12,6 +12,14 @@
   border-radius: 20px;
   background-color: lightblue;
 }
+
+@media (max-width: 932px) {
+  .references {
+    width: 150px;
+  }
+    
+}
+
 .back {
   height: 225px;
 }

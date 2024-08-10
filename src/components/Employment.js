@@ -35,7 +35,7 @@ const Employment = () => {
             <h2 className="history">
                 Employment History
             </h2>
-            <Tabs defaultActiveKey='1' items={items} onChange={onChange} />
+            <Tabs defaultActiveKey='1' items={items} onChange={onChange} className="employmentTabs" />
         </div>
     )
 };

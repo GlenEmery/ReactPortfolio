@@ -1,0 +1,20 @@
+.projectTiles {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+    width: 70%;
+    height: 250px;
+}
+
+.projectTiles img {
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease-in-out 0.3s;
+}
+
+.projectTiles img:hover {
+    width: 100%;
+}
