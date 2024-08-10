@@ -3,6 +3,7 @@
     position: relative;
     max-width: 100%;
     overflow: hidden;
+    margin: 0 auto;
   }
   .carousel__btn {
     position: absolute;
@@ -27,10 +28,11 @@
     right: 0;
   }
   .carousel__img {
-    width: 100%;
-    height: auto;
+    width: 400px;
+    height: 400px;
     display: block;
     transition: transform 0.3s ease-in-out;
+    margin: 0 auto;
   }
   .carousel__img:hover {
     transform: scale(1.05);

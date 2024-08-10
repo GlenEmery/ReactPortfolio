@@ -7,12 +7,18 @@ import References from './components/References.js';
 import Projects from './components/Projects.js';
 import Carousel from './components/Carousel.js';
 
+//images
+import fox from './fox.png';
+import waterfall from './waterfall.png';
+
 function App() {
 
   const images = [
     'https://via.placeholder.com/800x400/ff5733/fff',
     'https://via.placeholder.com/800x400/33ff57/fff',
     'https://via.placeholder.com/800x400/5733ff/fff',
+     fox,
+     waterfall
   ];
 
   return (
@@ -23,7 +29,7 @@ function App() {
     <Employment />
     <Skills />
     <References />
-    <Projects />
+    {/* <Projects /> */}
     <Carousel images={images} />
     
     </div>
