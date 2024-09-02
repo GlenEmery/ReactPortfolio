@@ -29,8 +29,7 @@ const References = () => {
             <p>Content content content</p>
             <p>Content content content</p>
             <p>Content content content</p>
-            <p>Content content content</p>
-            <p>Content content content</p>
+          
         </div>
         </ReactCardFlip>
         

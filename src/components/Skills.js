@@ -4,7 +4,7 @@ import { Popover } from 'antd'
 const js = (
     <div>
         <p>2 years experience - intermediate</p>
-        <p>vanilla JS and JSX</p>
+        <p>vanilla JS and JSX. Form validations.</p>
     </div>
 
 );
@@ -15,6 +15,27 @@ const react = (
     </div>
 
 );
+
+const jenkins = (
+    <div>
+        <p>2 years experience</p>
+        <p>Used Jenkins to deploy code through test environments to Production</p>
+    </div>
+);
+
+const newRelic = (
+    <div>
+        <p>3 years experience</p>
+        <p>Creating Dashboards, NRQL</p>
+    </div>
+);
+
+const agile = (
+    <div>
+        <p>3 years experience</p>
+        <p>working to Agile methodology including Scrum and Kanban</p>
+    </div>
+)
 
 const Skills = () => {
     return (
@@ -27,24 +48,17 @@ const Skills = () => {
                 <Popover content={react} title="React">
                     <div className="skill"><p>React</p></div>
                 </Popover>
-                <Popover content={js} title="title">
-                    <div className="skill"><p>HTML</p></div>
+                <Popover content={newRelic} title="New Relic">
+                    <div className="skill"><p>New Relic</p></div>
                 </Popover>
-                <Popover content={react} title="title">
+                <Popover content={jenkins} title="Jenkins">
                     <div className="skill"><p>Jenkins</p></div>
                 </Popover>
+                <Popover content={agile} title="Agile">
+                    <div className="skill"><p>Agile</p></div>
+                </Popover>
 
-                <div className="skill"><p>React</p></div>
-                <div className="skill"><p>HTML</p></div>
-                <div className="skill"><p>Jenkins</p></div>
-                <div className="skill"><p>JS</p></div>
-                <div className="skill"><p>React</p></div>
-                <div className="skill"><p>HTML</p></div>
-                <div className="skill"><p>Jenkins</p></div>
-                <div className="skill"><p>JS</p></div>
-                <div className="skill"><p>React</p></div>
-                <div className="skill"><p>HTML</p></div>
-                <div className="skill"><p>Jenkins</p></div>
+                
             </div>
         </div>
     )
